@@ -1,0 +1,41 @@
+.container {
+    width: 1200px;
+}
+body {
+    margin: 0;
+
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.d-flex {
+    display: flex;
+}
+.justfy-content-betwin {
+    justify-content: space-between;
+}
+.aling-items-center {
+    align-items: center;
+}
+.py2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+.nav-link {
+    margin: 0.5rem;
+    font-weight: 400;
+}
+.nav-link:hover {
+    color: aqua;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
