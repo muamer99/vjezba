@@ -1,0 +1,72 @@
+.container {
+    width: 1200px;
+}
+body {
+    margin: 0;
+
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.d-flex {
+    display: flex;
+}
+.justfy-content-betwin {
+    justify-content: space-between;
+}
+.aling-items-center {
+    align-items: center;
+}
+.py2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+.nav-link {
+    margin: 0.5rem;
+    font-weight: 400;
+}
+.nav-link:hover {
+    color: aqua;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    background-color: rgb(0, 42, 57);
+    color: white;
+    border-radius: 4px;
+    padding: 10px 15px;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: small;
+    margin-left: 1rem;
+}
+.glass {
+    position: relative;
+    align-items: center;
+    border: 1px solid rgba(0, 42, 57, .25098039215686274);
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px 15px;
+    flex-direction: row;
+    display: flex;
+    flex-grow: 1;
+    input {
+        border: none;
+        outline: none;
+        margin-left: 0.5rem;
+        width: 100%;
+    }
+}
