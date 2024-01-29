@@ -1,0 +1,72 @@
+.body-section {
+    display: flex;
+    justify-content: center;
+    background-color: #f1f4f5;
+    padding: 0 0 1rem 0;
+    max-width: 1200px;
+}
+
+.container-nek {
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1 0 100%;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.container-kat {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 2rem;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    flex-direction: column;
+}
+
+textarea {
+    background-color: #f1f4f5;
+    border-radius: 0.25rem;
+    border: none;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+input {
+    background-color: #f1f4f5;
+    border: none;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    margin-top: 0.5rem;
+}
+
+.header-nek {
+    font-size: 20px;
+    line-height: 22px;
+    margin: 0 0 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+.submit-btn {
+    background-color: rgb(0, 42, 57);
+    color: white;
+    cursor: pointer;
+}
+
+.submit-btn:active {
+    background-color: #1DC198;
+    color: #2c343f;
+}
+
+#kategorija-nekretnine {
+    background-color: #f1f4f5;
+    border: none;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    margin-top: 0.5rem;
+}
