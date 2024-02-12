@@ -1,5 +1,5 @@
 const showObjaviOglasOnClick = () => {
-    document.getElementById("model").style.display = "block";
+    document.getElementById("modal").style.display = "block";
 }
 
 const hideObjaviOglas = () => {
@@ -72,4 +72,5 @@ gridList.innerHTML = item
 
 document.addEventListener('DOMContentLoaded', async () => {
     loadTestItem();
+    hideObjaviOglas();
 }, false);
