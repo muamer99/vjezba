@@ -104,6 +104,10 @@ ul, ol {
     flex-direction: row;
 }
 
+.mg-l {
+    margin-left: 0.5rem;
+}
+
 .glass  input {
     border: none;
     outline: none;
